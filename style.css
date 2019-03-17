@@ -1,0 +1,46 @@
+body{
+ background: url("backGround.jpeg") no-repeat;
+ backGround-size: cover;
+}
+*
+{
+	margin:0px;
+	padding:0px;
+}
+#menu ul 
+{
+	list-style:none;
+}
+#menu ul li 
+{
+	Background-color:green;
+	border:2px solid white;
+	width:180px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	float:left;
+	position:relative;
+	border-radius:8px;
+	opacity: .8;
+}
+#menu ul li a 
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+#menu ul li a:hover
+{
+	background-color:blue;
+	border-radius:8px;
+}
+#menu ul ul 
+{
+	position:absolute;
+	display:none;
+}
+#menu ul li:hover  >ul
+{
+	display:block;
+}
